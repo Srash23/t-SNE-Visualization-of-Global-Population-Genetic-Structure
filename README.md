@@ -1,0 +1,5 @@
+This project applies t-distributed Stochastic Neighbor Embedding (t-SNE) to visualize high-dimensional genetic data from the 1000 Genomes Project. The dataset includes genetic information from individuals across various global populations, identified by population codes. The objective is to reduce the dimensionality of the genetic data and visualize the underlying structure in two dimensions to reveal patterns and relationships among different populations.
+
+The genetic data, standardized using z-score normalization, was processed with t-SNE, a nonlinear dimensionality reduction technique effective in preserving local structures. The resulting two-dimensional scatterplot, with individuals color-coded by population code, reveals clusters and overlaps that reflect genetic similarities and diversity among populations.
+
+This study highlights the utility of t-SNE in visualizing complex genetic data, offering insights into population genetics and human genetic diversity. The approach can be applied to other genetic datasets to uncover similar patterns and relationships.
